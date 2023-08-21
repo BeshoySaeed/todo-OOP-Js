@@ -1,0 +1,56 @@
+.container {
+  padding: 50px;
+  text-align: center;
+
+  #form-table {
+    #input-text {
+      padding: 8px;
+      border: none;
+      border-radius: 20px;
+      outline: none;
+      background-color: gray;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    #input-btn {
+      padding: 10px 20px;
+      background-color: red;
+      color: white;
+      font-weight: bold;
+      border-radius: 20px;
+      border: none;
+      transition: 0.3s;
+      cursor: pointer;
+      &:hover {
+        background-color: gray;
+      }
+    }
+  }
+
+  #table-row {
+    margin: 40px auto;
+
+    td {
+      border: 2px solid;
+      border-radius: 20px;
+      width: 150px;
+      font-size: 14px;
+    }
+
+    button {
+      border-radius: 8px;
+      background-color: gray;
+      color: white;
+      font-weight: bold;
+      border: none;
+      padding: 5px 10px;
+      margin-left: 5px;
+      cursor: pointer;
+      &:hover {
+        background-color: red;
+        color: white;
+      }
+    }
+  }
+}
